@@ -20,13 +20,13 @@ Working with massive DataFrames in a standard IDE can be cumbersome and restrict
    -  UDF Modules: interactive_data_vierwer_udf
 
 ###💻 Usage
-The UDF contains the following Excel dynamic array functions:
+The UDF contains the following Excel dynamic array functions. Please refer to the WIKI page for more detailed information for how to use these functions.
 
 -  IDVTableFromFile
    This is the core function of the UDF that reads the contents from a file and returns the result as a table in Excel. It can currently read sqlite, parquet, Python pickle and Excel files (csv, xlsx, xls). It takes the following arguments:
-   - FileInfo: Range holding information about where the file is stored and if required, what table name or attribute that holds the data to return
-   - FilterParameters: Range containing instructions for how to filter on what rows of the data to return
-   - TransformationParameters: Range holding information for how to transform the data (e.g. how to aggregate, which columns to include, adding derived columns, etc.)
+   - **FileInfo**: Range holding information about where the file is stored and if required, what table name or attribute that holds the data to return
+   - **FilterParameters**: Range containing instructions for how to filter on what rows of the data to return
+   - **TransformationParameters**: Range holding information for how to transform the data (e.g. how to aggregate, which columns to include, adding derived columns, etc.)
  
      
      
