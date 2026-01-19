@@ -29,9 +29,8 @@ The UDF contains the following Excel dynamic array functions. Please refer to th
    - **FilterParameters**: Range containing instructions for how to filter on what rows of the data to return
    - **TransformationParameters**: Range holding information for how to transform the data (e.g. how to aggregate, which columns to include, adding derived columns, etc.)
 
- -  ***IDVListFileColums***
+-  ***IDVListFileColums***
    This function will read the file contents and display which columns are available. It takes the following arguments:
    - **FileInfo**: Range holding information about where the file is stored and if required, what table name or attribute that holds the data to return
-   - **MatchString (Optional)**
-     
+   - **MatchString (Optional)**: xxx
      
