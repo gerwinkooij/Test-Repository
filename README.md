@@ -12,6 +12,21 @@ Working with massive DataFrames in a standard IDE can be cumbersome and restrict
 -  Install the Pandas and numpy Python libraries
 
 #### Configration
-After installing the XLWings library, an addtional xlwings tab should be available in Excel. Click on this tab and configure the following
-<img width="850" height="109" alt="xlwings_config" src="https://github.com/user-attachments/assets/767a0c28-0504-496d-acfa-1f1e35847ad7" />
+- Clone the repostitory to a local drive
+- After installing the XLWings library, an addtional xlwings tab should be available in Excel. Click on this tab and configure the following
+  <img width="850" height="109" alt="xlwings_config" src="https://github.com/user-attachments/assets/767a0c28-0504-496d-acfa-1f1e35847ad7" />
+   -  Interpreter: Full path to your Python executable (include Python.exe at the end)
+   -  PYTHONPATH: Path to the src directory of the cloned repository on the local drive
+   -  UDF Modules: interactive_data_vierwer_udf
 
+###💻 Usage
+The UDF contains the following Excel dynamic array functions:
+
+-  IDVTableFromFile
+   This is the core function of the UDF that reads the contents from a file and returns the result as a table in Excel. It can currently read sqlite, parquet, Python pickle and Excel files (csv, xlsx, xls). It takes the following arguments:
+   - FileInfo: Range holding information about where the file is stored and if required, what table name or attribute that holds the data to return
+   - FilterParameters: Range containing instructions for how to filter on what rows of the data to return
+   - TransformationParameters: Range holding information for how to transform the data (e.g. how to aggregate, which columns to include, adding derived columns, etc.)
+ 
+     
+     
