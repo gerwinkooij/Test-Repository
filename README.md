@@ -32,5 +32,5 @@ The UDF contains the following Excel dynamic array functions. Please refer to th
 -  ***IDVListFileColums***
    This function will read the file contents and display which columns are available. It takes the following arguments:
    - **FileInfo**: Range holding information about where the file is stored and if required, what table name or attribute that holds the data to return
-   - **MatchString (Optional)**: xxx
+   - **MatchString (Optional)**: Only include columns that contain the specified match str.
      
