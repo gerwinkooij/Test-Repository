@@ -40,14 +40,14 @@ The UDF contains the following Excel dynamic array functions. Please refer to th
    - **FilterParameters**: Range containing instructions for how to filter on what rows of the data to return
    - **TransformationParameters**: Range holding information for how to transform the data (e.g. how to aggregate, which columns to include, adding derived columns, etc.)
  
-  - ***IDVListTransformationParameters***
-     Returns a list of parameters available to transform the result set, their default values and a brief explanation for how to use them. 
+- ***IDVListTransformationParameters***
+  Returns a list of parameters available to transform the result set, their default values and a brief explanation for how to use them. 
 
-  - ***IDVListDataFileParameters***
-     Returns a list of parameters for specifying the details of the source data file.
+- ***IDVListDataFileParameters***
+  Returns a list of parameters for specifying the details of the source data file.
 
-  - ***IDVListAggregationParameters***
-     Returns a list of functions that can be passed as a suffix to aggregation columns separated by a pipe character (|).If no function is specified, then the default aggregation function is 'sum'.
+- ***IDVListAggregationParameters***
+  Returns a list of functions that can be passed as a suffix to aggregation columns separated by a pipe character (|).If no function is specified, then the default aggregation function is 'sum'.
 
     
      
