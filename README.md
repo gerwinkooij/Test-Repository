@@ -25,7 +25,7 @@ The UDF contains the following Excel dynamic array functions. Please refer to th
 
 -  ***IDVTableFromFile***
    This is the core function of the UDF that reads the contents from a file and returns the result as a table in Excel. It can currently read sqlite, parquet, Python pickle and Excel files (csv, xlsx, xls). It takes the following arguments:
-   - **FileInfo**: Range holding information about where the file is stored and if required, what table name or attribute that holds the data to return
+   - **[FileInfo](https://github.com/gerwinkooij/Test-Repository/wiki/File-Parameters)**: Range holding information about where the file is stored and if required, what table name or attribute that holds the data to return
    - **FilterParameters**: Range containing instructions for how to filter on what rows of the data to return
    - **TransformationParameters**: Range holding information for how to transform the data (e.g. how to aggregate, which columns to include, adding derived columns, etc.)
 
