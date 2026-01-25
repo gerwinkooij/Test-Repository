@@ -8,7 +8,7 @@ Working with massive DataFrames in a standard IDE can be cumbersome and restrict
 
 ### 🚀 Getting Started
 #### Prerequisites
--  [Install the XLWings Library]](https://docs.xlwings.org/en/latest/installation.html)
+-  [Install the XLWings Library](https://docs.xlwings.org/en/latest/installation.html)
 -  Install the Pandas and numpy Python libraries
 
 #### Configration
